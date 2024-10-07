@@ -1,10 +1,63 @@
-# Getting Started with Create React App
+### Expense Tracker App
+### Overview
+The Expense Manager App is a web application built with React and Material UI that allows users to manage their personal expenses. Users can add, view, edit, and delete expenses. The app also provides a summary of total expenses and categorizes expenses for better insight into spending habits. Data persistence is handled with Local Storage, making it easy to keep track of expenses between sessions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Features
+`Add Expenses`: Easily add new expenses with fields for name, amount, and category.\
 
-## Available Scripts
+`View Expenses`: See all expenses in a table format with columns for name, amount, category, and actions.
 
-In the project directory, you can run:
+`Edit and Delete Expenses`: Edit or delete any expense as needed.
+
+`Expense Summary`: View a summary of total expenses and expenses by category.
+
+`Responsive UI`: The app is fully responsive, providing a smooth experience across all device sizes.
+
+`Client-Side Routing`: Navigate between different sections without page reloads.
+
+`Data Persistence`: Expenses are saved in Local Storage, so data is retained even after refreshing the page.
+
+### Technologies Used
+`React`: A JavaScript library for building user interfaces.
+
+`Material UI (MUI)`: A React component library for building a responsive, modern UI with ready-to-use components.
+
+`React Router`: For client-side routing to navigate between different views of the app.
+
+`Local Storage`: Used for data persistence, storing user expenses across sessions.
+
+### Installation and Setup
+Follow these steps to set up and run the application locally:
+
+### Prerequisites
+Make sure you have the following installed on your system:
+
+`Node.js (v12 or higher)`: Download Node.js
+`npm`: Comes with Node.js. To check if it’s installed, run npm -v in your terminal.
+
+### Steps
+1. `Clone the repository`:
+git clone [git@github.com:ARIERICYRON/expense-manager.git]
+cd expense-manager
+
+### Install the dependencies:
+2. `npm install`
+
+
+Run the application:
+
+3. `npm start`
+The app will be accessible at http://localhost:3000 in your web browser.
+
+### Usage
+`Home`: View a list of all expenses, with options to edit or delete each entry.
+
+`Add Expense`: Navigate to this page to add a new expense. The form includes input fields for the expense name, amount, and category selection.
+
+`Edit Expense`: Accessible from the Home page. Allows editing of an existing expense’s details.
+
+`Summary`: View the total expenses and categorized expenses in a summarized format.
+
 
 ### `npm start`
 
